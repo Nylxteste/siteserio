@@ -12,8 +12,9 @@ html, body{
 
 /* header */
 header{
-    background: linear-gradient(black 10%, rgb(39, 179, 21) 50%);
-    height: 15vh;
+/*     background: black;
+ */   background-color: #7e0202;
+  height: 15vh;
     display: flex;
     justify-content: space-between;
 }
@@ -37,15 +38,32 @@ img{
     margin-right: 0vw;
     margin-top: 5vh;
     right: -105px;
+/*     color: #880000;
+ */color: black;
 }
 /* APÓS HEADER */
 #container{
-    border: 2px solid black;
+    border: 1px solid rgba(128, 128, 128, 0.534);
     height: 85vh;
     display: flex;
     justify-content: space-around;
-    background-image: url('https://www.theplayoffs.com.br/wp-content/uploads/2019/04/Campo-Liga-BFA.jpeg');
-    background-size: cover;
+/*     background-image: url('https://www.theplayoffs.com.br/wp-content/uploads/2019/04/Campo-Liga-BFA.jpeg');
+ */ background-size: cover;
+    
+}
+#teste{
+    margin-top: 5vh;
+    border: 1px solid rgba(128, 128, 128, 0.534);
+    height: 75vh;
+    width: 95vw;
+    display: flex;
+    justify-content: space-around;
+/*     background-image: url('https://www.theplayoffs.com.br/wp-content/uploads/2019/04/Campo-Liga-BFA.jpeg');
+ */ background-size: cover;
+    border-radius: 4px solid black;
+    background-color: beige;
+    
+ 
 }
 /* NAV */
 nav{
@@ -62,22 +80,22 @@ header ul{
     font-weight: 700;
 }
 a{
- color: white;   
+ color: black;   
 }
 /* fim container */
 
 /*  */
+
 .colunas{
-    border: 2px solid rgb(40, 30, 30);
-    height: 70vh;
+    height: 68vh;
     width: 30vw;
     margin-left: 4vw;
     margin-right: 4vw;
     margin-top: 5vh;
     text-align: center;
     padding: 5px;
-    border-radius: 30px;
-    transition: 0.3s ease-in-out;
+    text-align: justify;
+    transition: 0.5s ease-in-out;
 }
 .colunas h2 :hover{
     font-size: 15px;
@@ -95,30 +113,30 @@ a{
 
 }
 #americano{
-background-image: url('https://s2.glbimg.com/taVdTGudBegGqfYdOqxz5npl7Ao=/0x0:690x1013/984x0/smart/filters:strip_icc()/s.glbimg.com/es/ge/f/original/2017/09/06/futebol-americano-x-futebol.jpg');
-background-size: 89%;
+background-image: url('https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/nbkqdonnxfnvwdpj5z9f.jpg');
+background-size: 95%;
 background-repeat: no-repeat;
 background-position: top ;
 color: transparent;
+background-size: 205%;
 }
 #flag{
     background-image: url('https://svite-league-apps-content.s3.amazonaws.com/17898/23373/9573534e-e81f-4630-a83b-df182cf12c28.jpeg');
-    background-size: cover;
+    background-size: 115%;
+    background-position: top center;
+    background-repeat: no-repeat;
     color: transparent;
     }
 #americano:hover,#flag:hover{
     background-image: none;
-    background-color: rgb(212, 49, 21);
+    background-color: beige;
     color: black;
     
 
 }
-#americano p:hover,#flag p:hover{
-    color: aquamarine;
-}
+
 #linha-tempo{
     width: 18vw;
-    background: linear-gradient(to right,red 1%, black 2%,red 1%);
     background-size: 150%;
     background-position: 110px;
     display: flex;
@@ -128,8 +146,28 @@ color: transparent;
 #linha-tempo nav{
     width: 10px;
     position: relative;
-    left:2.25vw;
+    left:6.50vw;
+
 }
 #linha-tempo li{
-    margin-top: 35px;
+    font-family: sans-serif;
+    font-weight: 800;
+    margin-top: -2vh;
+    font-size: 12px;
+    margin-bottom: 50px;
+    list-style: url('https://lh3.googleusercontent.com/pw/AM-JKLUJJVF4g6utdmYcha0hLHV0Bg7QaSwcfACD_N64zYeQ5Rz_kvx0SlRuOJdIiDgggxIOUKViv_GKFC0ek3C74cuwVW-6kQRKIJYJmirW3bF8aqe4a_vJjgP9dxHMGsLDAeR9qPYS3yXOI_duEd7D1rjt=s24-no?authuser=0');
+}
+
+#linha-tempo li:hover{
+    margin-top: -2vh;
+    margin-bottom: 50px;
+    list-style: url('https://lh3.googleusercontent.com/pw/AM-JKLX1tHF7OhsyAYjRwxcSDEiHuDkuBYgt1eigp3NfH62XG_lipHy8VGDjzPSTzRPo11g0k8P6WMk45j1ba3BqZoNCk5Y_AEE8Y-LByB7qELbBS7mPpUrMYTF0NFwjjWvcXy1XGr4HQ8VFxQKs-l6D0mEZ=s24-no?authuser=0');
+}
+#linha-hover{
+    position: relative;
+    border: 1px solid rgba(128, 128, 128, 0.603);
+    border-radius: 40px;
+    height: 52vh;
+    width: 0vw;
+    left: 4vw;
 }
