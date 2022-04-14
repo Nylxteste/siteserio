@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/css.css">
+    <link rel="stylesheet" href="./assets/css/Main.css">
     <title>Document</title>
+    
 </head>
 
 <body>
+    
     <header id="cabecalho">
+
         <div id="imagem-logo">
             <img src="https://i.picasion.com/pic92/a019d140f82b34f2a2c46a1247d7cd5f.gif" alt="logo-van">
         </div>
@@ -19,8 +22,8 @@
         </div>
         <nav>
             <ul>
-                <li><a href=""> Regras do esporte</a></li>
-                <li><a href=""> Sobre a Virando</a></li>
+                <li><a href="#div-container2"> Regras do esporte</a></li>
+                <li><a href="#div-container2"> Sobre a Virando</a></li>
                 <li><a href=""> Eventos e Jogos</a></li>
             </ul>
         </nav>
@@ -88,27 +91,39 @@
         </div>
     </div>
     </div>
-    <script>
-        var li1 = document.getElementById('li1');
-        var li2 = document.getElementById('li2');
-        var li3 = document.getElementById('li3');
-        var li4 = document.getElementById('li4');
-        var v1867 = document.getElementById('v1867');
+  <!-- Início parte 2 -->
+  <div id="div-container2">
+    <section class="container-2-colunas">
+      <div class="container-menor">
+        <div id="movimentacaoSuper">
 
-        function trocarBotao() {
-
-            if (v1867) {
-                v1867.value = true
-                if (v1867.value = true) {
-                    console.log(v1867)
-                }
-
-            }
-
-            console.log(li2.value)
-
-        }
-    </script>
+        </div>
+      </div>
+      <section class="container-2-colunas" id="texto-div-2">
+        <div class="text">
+          <h3 class="padding-of">QUEM SOU EU</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+            numquam illo qui laborum molestias, quo explicabo voluptatibus iste
+            ut blanditiis eius labore ipsam recusandae commodi repellat harum.
+            Esse, excepturi et? Molestias iure aut minima labore recusandae
+            accusamus nesciunt, quis mollitia voluptates ea! Cupiditate atque
+            libero tempore repellendus minus non tempora! Recusandae, eligendi?
+          </p>
+        </div>
+        <div class="text">
+          <h3 class="padding-of">Regras</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi
+            assumenda soluta labore repudiandae reiciendis doloremque porro nemo
+            consequatur beatae tempora unde explicabo earum ab cumque, molestias
+            recusandae sunt, fugiat laboriosam. Iusto perspiciatis vel numquam
+            repellendus facilis harum nulla similique
+          </p>
+        </div>
+      </section>
+    </section>
+  </div>
 </body>
 
 </html>

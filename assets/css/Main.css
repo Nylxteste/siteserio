@@ -1,0 +1,16 @@
+@import url(./Fonts.css);
+@import url(./css.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
